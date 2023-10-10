@@ -1,10 +1,9 @@
 node {
-    agent any
     stage('Checkout') {
         checkout scm
     }
     stage('Check NPM Ver') {
-        sh 'npm --version'
+        sh 'echo "Hello World"'
     }
     // stage('Build') {
     //     sh 'npm install'
