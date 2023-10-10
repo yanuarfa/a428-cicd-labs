@@ -1,7 +1,6 @@
 node {
-    stage('Checkout') {
-        checkout scm
-    }
+    checkout scm
+    
     stage('Check NPM Ver') {
         sh 'echo "Hello World"'
     }
